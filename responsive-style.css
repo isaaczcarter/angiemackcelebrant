@@ -1,0 +1,475 @@
+@media only screen and (max-width: 1650px) {
+    /* testimonial box sizing */
+    .box-area {
+        min-height: 350px !important;
+        max-height: 350px !important;
+    }
+
+    /* testimonial button sizing */
+    #testimonial_area .owl-prev,
+    #testimonial_area .owl-next {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14pt;
+    }
+
+    #testimonial_area .owl-prev {
+        left: -60px;
+        top: -30px;
+    }
+
+    #testimonial_area .owl-next {
+        right: -60px;
+        top: -30px;
+    }
+
+    /*font sizes*/
+    p {
+        font-size: 14pt;
+    }
+    
+    h1 {
+        font-size: 30pt;
+    }
+    
+    h2, h3 {
+        font-size: 24pt;
+    }
+    
+    h4, h6 {
+        font-size: 20pt;
+    }
+    
+    h5 {
+        font-size: 26pt;
+    }
+
+    .fa-linkedin,
+    .fa-facebook,
+    .fa-instagram {
+        font-size: 34pt;
+        margin: .5rem;
+    }
+
+    /*graphic sizing*/
+    #heart-graphic-2 {
+        height: 20rem;
+        right: 7rem;
+        bottom: 7rem;
+    }
+
+    /*margins & paddings*/
+    #intro {
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+    }
+
+    #fee-info-wrapper {
+        margin-top: 6rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    #square-div {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    #testimonial_area {
+        padding: 6rem 0;
+    }
+
+    .margin-bottom {
+        margin-bottom: 4rem;
+    }
+
+    /*intro sizing*/
+    #intro {
+        height: 27rem;
+    }
+
+    .blurb-img {
+        height: 27rem;
+    }
+
+    /*container width*/
+    #square-div,
+    #fee-info,
+    #funerals {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    /* testimonial button sizing */
+    #testimonial_area .owl-prev,
+    #testimonial_area .owl-next {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12pt;
+    }
+
+    #testimonial_area .owl-prev {
+        left: -37px;
+        top: -30px;
+    }
+
+    #testimonial_area .owl-next {
+        right: -37px;
+        top: -30px;
+    }
+
+    /*font sizes*/
+    a {
+        font-size: 16;
+    }
+
+    .fa-linkedin,
+    .fa-facebook,
+    .fa-instagram {
+        font-size: 36pt;
+        margin: .75rem;
+    }
+
+    /*margins & paddings*/
+    .nav-menu {
+        gap: 1.5rem;
+    }
+
+    /*graphic sizing*/
+    #angie-img {
+        height: 22rem;
+    }
+
+    #heart-graphic-2 {
+        height: 15rem;
+        right: 6rem;
+        bottom: 6rem;
+    }
+
+    /*intro sizing*/
+    #intro {
+        height: 22rem;
+    }
+
+    .blurb-img {
+        height: 22rem;
+    }
+
+    .margin-bottom {
+        margin-bottom: 4rem;
+    }
+
+    /*container width*/
+    #nav-container,
+    #square-div,
+    #fee-info,
+    #funerals {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    /* burger nav */
+    #nav-container {    
+        width: 80%;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    #hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    #hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    #hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    #nav-menu{
+        position: fixed;
+        top: -300px;
+        left: 0;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.92);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    #nav-menu.active {
+        top: 87px;
+    }
+
+    h1 {
+        text-align: left;
+    }
+
+    /*container width*/
+    #nav-container,
+    #square-div,
+    #fee-info,
+    #funerals {
+        width: 90%;
+    }
+
+    /*intro sizing*/
+    #intro {
+        border-radius: 5px;
+        flex-direction: column;
+        align-self: center;
+        height: auto;
+        width: 90%;
+    }
+
+    .blurb-img {
+        width: 90vw;
+        height: auto;
+        border-radius: 0 0 5px 5px;
+    }
+
+    #blurb {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 6rem 4vw;
+        margin: 0 4vw;
+    }
+
+    /*graphic sizing*/
+    #angie-img {
+        height: 20rem;
+    }
+
+    #heart-graphic-1 {
+        height: 20vw;
+        right: 3rem;
+        top: 0;
+    }
+
+    #heart-graphic-2 {
+        height: 12rem;
+        right: 3rem;
+        bottom: 5rem;
+    }
+
+    /*margins & paddings*/
+    .paragraph-margin {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #intro {
+        margin: 3rem 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #fee-info-wrapper {
+        margin-top: 4rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    #square-div {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    #testimonial_area {
+        padding: 4rem 0;
+    }
+
+    .margin-bottom {
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    /* burger nav */
+    #nav-menu.active {
+        top: 81.33px;
+    }
+
+    /* testimonial button sizing */
+    #testimonial_area .owl-prev,
+    #testimonial_area .owl-next {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 10pt;
+    }
+
+    #testimonial_area .owl-prev {
+        left: -28px;
+        top: -30px;
+    }
+
+    #testimonial_area .owl-next {
+        right: -28px;
+        top: -30px;
+    }
+
+    /*about angie*/
+    #square-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        width: 60%;
+    }
+
+    /*font sizes*/
+    p {
+        font-size: 12pt;
+    }
+    
+    h1 {
+        font-size: 25pt;
+    }
+    
+    h2, h3 {
+        font-size: 16pt;
+    }
+    
+    h4, h6 {
+        font-size: 11pt;
+    }
+
+    h6 {
+        margin-top: 3rem;
+    }
+    
+    h5 {
+        font-size: 25pt;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .content {
+        text-align:center;
+    }
+
+    .fa-linkedin,
+    .fa-facebook,
+    .fa-instagram {
+        font-size: 30pt;
+        margin: .5 2rem;
+    }
+
+    /*container width*/
+    #nav-container,
+    #square-div,
+    #fee-info,
+    #funerals {
+        width: 90%;
+    }
+
+    /*intro sizing*/
+    #intro {
+        border-radius: 5px;
+        flex-direction: column;
+        align-self: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .blurb-img {
+        width: 100vw;
+        height: auto;
+        border-radius: 0 0 5px 5px;
+    }
+
+    #blurb {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 4vw;
+        margin: 0 4vw;
+    }
+
+    /*graphic sizing*/
+    #angie-img {
+        height: 15rem;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .la{
+        text-align: center;
+    }
+
+    #heart-graphic-1 {
+        height: 20vw;
+        right: 3rem;
+        top: 0;
+    }
+
+    #heart-graphic-2 {
+        height: 6rem;
+        right: 2rem;
+        bottom: 2rem;
+    }
+
+    /*margins & paddings*/
+
+    #fee-info-wrapper {
+        margin-top: 3rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #square-div {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #testimonial_area {
+        padding: 3rem 0;
+    }
+
+    .margin-bottom {
+        margin-bottom: 1rem;
+    }
+
+    /*testimonial*/
+    .owl-item {
+        max-width: 400px;
+        padding: 10px 10px 0 10px;
+    }
+
+    .left {
+        gap: 0.5rem;
+    }
+    
+    .right {
+        gap: 0.5rem;
+    }
+
+    #contact-details {
+        gap: 0rem;
+    }
+
+    .contact-button {
+        padding: 0;
+    }
+
+    /* hamburger menu position */
+    #hamburger {
+        margin-right: 1rem;
+    }
+}

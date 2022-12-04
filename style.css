@@ -1,0 +1,473 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	/* vertical-align: baseline; */
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* font style */
+h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 40pt;
+    color: #406EB2;
+    text-align: end;
+}
+
+h2 {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 28pt;
+    color: #406EB2;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 28pt;
+    font-weight: 500;
+    color: #FAE8D0;
+    line-height: 100%;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24pt;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.4;
+}
+
+h5 {
+    font-family: 'Sacramento', sans-serif;
+    font-size: 30pt;
+    font-weight: 400;
+    color: #272727;
+    line-height: 1.4;
+    text-align: end;
+    margin-top: 1rem;
+    padding-bottom: 30px;
+}
+
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24pt;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.4;
+    margin-top: 4rem;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17pt;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 150%;
+    color: #272727;
+}
+
+.white-p {
+    color: #fff;
+    text-align: justify;
+    font-weight: 300;
+}
+
+a {
+    font-family: 'Forum';
+    font-size: 20pt;
+    font-weight: 500;
+    color: #406EB2;
+    text-decoration: none !important;
+}
+
+.la {
+    text-align: left;
+}
+
+.contact-method:hover {
+    color: #FAE8D0;
+    transition: 0.3s ease;
+}
+
+
+/* font style end */
+
+body {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.3)), url(./images/1.jpg);
+    background-position: sticky;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+
+/* nav style */
+nav {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    background: rgba(255, 255, 255, 1);
+    width: 100%;
+    top: 0;
+    align-items: center;
+    padding: 2rem 0 1rem 0;
+    z-index: 2;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+    text-decoration: solid !important;
+}
+
+.nav-link:hover {
+    color: #46af88;
+}
+
+#nav-container {    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 80%;
+}
+
+#nav-menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;    
+}
+
+#hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #406EB2;
+}
+
+/* nav style end */
+
+/* blurb style */
+#intro {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EEF5FF;
+    width: 90%;
+    height: 35rem;
+}
+
+#blurb {
+    padding: 0 10vw;
+}
+
+#blurb-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 100%;
+}
+
+#heart-graphic-1 {
+    position: absolute;
+    width: 9vw;
+    right: 3vw;
+    top: 2vw;
+}
+
+#heart-graphic-2 {
+    position: absolute;
+    height: 30rem;
+    right: 10rem;
+    bottom: 10rem;
+}
+
+.blurb-img {
+    height: 35rem;
+}
+/* blurb style end */
+
+/* about Angie */
+#about-angie {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    background-color: #46af88de;
+}
+
+#square-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    width: 60%;
+}
+
+#angie-img {
+    height: 30rem;
+    border-radius: 50%;
+    margin-right: 3rem;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #406EB2;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact:active {
+    transition: ease-in-out 1s;
+    scroll-behavior: smooth;
+}
+
+#contact-details {
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-button {
+    background-color: #406EB2;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 25px;
+}
+
+.contact-button:hover {
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.contact-button h4:hover {
+    color: #406EB2;
+    transition: 0.3s;
+}
+
+#footer p {
+    text-align: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+    gap: 1rem;
+}
+
+.margin, .right {
+    margin-bottom: 1rem;
+}
+
+/* about Angie end */
+
+/* fee info */
+#fee-info-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #406eb2e7;
+    margin-top: 10rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+#fee-info {
+    width: 60%;
+}
+
+/* fee info end */
+
+#services-other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#funerals {
+    width: 60%;
+}
+
+.margin-bottom {
+    margin-bottom: 6rem;
+}
+
+.paragraph-margin {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* testimonial styling */
+#testimonial_area {
+    padding: 10rem 0;
+}
+
+#testimonial_area .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+#testimonial_area .owl-prev,
+#testimonial_area .owl-next {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 17pt;
+    color: #46af88;
+    border-radius: 50%;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+}
+
+#testimonial_area .owl-prev {
+    left: -70px;
+    top: -30px;
+}
+
+#testimonial_area .owl-next {
+    right: -70px;
+    top: -30px;
+}
+
+.container {
+    width: 90%;
+}
+
+.owl-item {
+    width: 500px;
+    overflow-y: scroll;
+    
+    margin: 0;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: rgba(0,0,0,.35) 0 5px 15px;
+    padding: 30px 30px 0 30px;
+    border-radius: 10px;
+} 
+
+.box-area {
+    position: relative;
+    display: block;
+    color: #272727;
+    margin: 40px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 450px !important;
+    max-height: 450px !important;
+    margin: 0;
+}
+
+.header-wrapper {
+    width:100%;
+    background: #406eb2e7;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+/* testimonial styling end*/
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.owl-item::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .owl-item {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .socials {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fa-linkedin,
+  .fa-facebook,
+  .fa-instagram {
+    font-size: 4rem;
+    color: #fff;
+    padding: 10px 20px;
+  }
+
+  .fa-linkedin:hover,
+  .fa-facebook:hover,
+  .fa-instagram:hover {
+    /* font-size: 3.9rem; */
+    font-size: 3.9rem;
+    background-color: #fff;
+    color: #406EB2;
+    transition: .3s ease;
+  }
+
+  
