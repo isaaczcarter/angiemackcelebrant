@@ -95,7 +95,7 @@
 
     /*container width*/
     #square-div,
-    #fee-info,
+    #weddings,
     #funerals {
         width: 70%;
     }
@@ -165,7 +165,7 @@
     /*container width*/
     #nav-container,
     #square-div,
-    #fee-info,
+    #weddings,
     #funerals {
         width: 80%;
     }
@@ -220,7 +220,7 @@
     /*container width*/
     #nav-container,
     #square-div,
-    #fee-info,
+    #weddings,
     #funerals {
         width: 90%;
     }
@@ -295,6 +295,12 @@
     .margin-bottom {
         margin-bottom: 2rem;
     }
+
+    .fa-linkedin,
+    .fa-facebook,
+    .fa-instagram {
+        padding: 5px 10px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -367,14 +373,14 @@
     .fa-linkedin,
     .fa-facebook,
     .fa-instagram {
-        font-size: 30pt;
-        margin: .5 2rem;
+        padding: 5px 10px;
+        margin: .5rem;
     }
 
     /*container width*/
     #nav-container,
     #square-div,
-    #fee-info,
+    #weddings,
     #funerals {
         width: 90%;
     }

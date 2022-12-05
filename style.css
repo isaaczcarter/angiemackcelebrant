@@ -338,7 +338,7 @@ a {
     padding-bottom: 8rem;
 }
 
-#fee-info {
+#weddings {
     width: 60%;
 }
 
@@ -470,4 +470,19 @@ a {
     transition: .3s ease;
   }
 
+  .hidden {
+    display: none;
+  }
   
+  .service-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .down-arrow {
+    font-size: 22pt;
+    margin: 1rem;
+    color: #FAE8D0;
+  }
