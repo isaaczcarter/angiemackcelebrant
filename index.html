@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="responsive-style.css">
+        <script src="https://unpkg.com/scrollreveal@4"></script>
     </head>
     <body>
         <nav>
@@ -43,7 +44,7 @@
             </div>
         </nav>
         
-        <div data-aos="fade-right" id="intro">
+        <div class="headline" id="intro">
             <div id="blurb-container">
                 <img id="heart-graphic-1" src="./images/heart_graphic_1.svg" alt="">
                 <div id="blurb">
@@ -58,7 +59,7 @@
             </div>
         </div>
     
-        <div data-aos="fade-up" id="about-angie">
+        <div class="headline" id="about-angie">
             <div id="square-div">
                 <img id="angie-img" src="./images/angiemack_2.1.jpg" alt="">
                 <div id="about-angie-blurb">
@@ -72,7 +73,7 @@
             </div>
         </div>
     
-        <div data-aos="fade-up" id="fee-info-wrapper">
+        <div class="headline" id="fee-info-wrapper">
             <div id="weddings" class="service margin-bottom">
                 <div id="weddings-dropdown-button" class="service-header">
                     <h3>Weddings</h3> <span><i class="down-arrow fa fa-angle-down hidden" aria-hidden="true"></i></span>
@@ -169,7 +170,7 @@
             </div>
         </div>
     
-        <section  data-aos="fade-up" id="testimonial_area">
+        <section class="headline" id="testimonial_area">
             <div class="header-wrapper">
                 <h3>Hear what the happy newly weds had to say...</h3>
             </div>
@@ -411,7 +412,8 @@
                 }
             });
         </script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>AOS.init();</script>
+        <script>
+            ScrollReveal().reveal('.headline');
+        </script>
     </body>
 </html>
