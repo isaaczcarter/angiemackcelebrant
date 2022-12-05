@@ -18,6 +18,8 @@ let weddings_dropdown = document.getElementById('weddings-dropdown');
 let funerals_dropdown = document.getElementById('funerals-dropdown');
 let services_other_dropdown = document.getElementById('services-other-dropdown');
 
+let down_arrows = document.getElementsByClassName('down-arrow');
+
 let weddings_dropdown_button = document.getElementById('weddings-dropdown-button');
 let funerals_dropdown_button = document.getElementById('funerals-dropdown-button');
 let other_dropdown_button = document.getElementById('other-dropdown-button');
