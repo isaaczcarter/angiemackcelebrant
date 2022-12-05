@@ -2,6 +2,14 @@ const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('nav-menu');
 const navLink = document.getElementsByClassName('nav-link');
 
+const documentHeight = () => {
+    const doc = document.documentElement
+    doc.style.setProperty('--doc-height', `${window.innerHeight}px`)
+   }
+
+window.addEventListener('resize', documentHeight)
+documentHeight()
+
 function toggle_menu(){
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
