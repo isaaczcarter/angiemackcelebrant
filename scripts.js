@@ -72,3 +72,4 @@ var limitFunc = function(){
 
 window.addEventListener("resize", limitFunc);
 window.addEventListener("onload", limitFunc);
+window.addEventListener("pageshow", limitFunc);

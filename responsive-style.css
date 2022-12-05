@@ -65,8 +65,13 @@
         margin-bottom: 6rem;
     }
 
+    #footer {
+        margin-top: 6rem;
+    }
+
     #fee-info-wrapper {
         margin-top: 6rem;
+        margin-bottom: 6rem;
         padding-top: 4rem;
         padding-bottom: 4rem;
     }
@@ -74,10 +79,6 @@
     #square-div {
         padding-top: 4rem;
         padding-bottom: 4rem;
-    }
-
-    #testimonial_area {
-        padding: 6rem 0;
     }
 
     .margin-bottom {
@@ -279,17 +280,18 @@
 
     #fee-info-wrapper {
         margin-top: 4rem;
+        margin-bottom: 4rem;
         padding-top: 2rem;
         padding-bottom: 2rem;
+    }
+
+    #footer {
+        margin-top: 4rem;
     }
 
     #square-div {
         padding-top: 2rem;
         padding-bottom: 2rem;
-    }
-
-    #testimonial_area {
-        padding: 4rem 0;
     }
 
     .margin-bottom {
@@ -435,17 +437,18 @@
 
     #fee-info-wrapper {
         margin-top: 3rem;
+        margin-bottom: 3rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
+    }
+
+    #footer {
+        margin-top: 3rem;
     }
 
     #square-div {
         padding-top: 1rem;
         padding-bottom: 1rem;
-    }
-
-    #testimonial_area {
-        padding: 3rem 0;
     }
 
     .margin-bottom {
