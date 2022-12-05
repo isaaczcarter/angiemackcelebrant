@@ -485,17 +485,17 @@
 
 /* Fixed background for tablet and mobile */
 @media all and (max-width:1024px) {
-    selector:after {
-        content: '';
-        width: 100%;
-        height: 100%;
-        background-position: inherit;
-        background-image: inherit;
-        background-size: inherit;
-        background-attachment: inherit;
-        background-repeat: inherit;
-        position: fixed;
-        top: 0;
-        z-index: -1;
+    body:after {
+        content: '' !important;
+        width: 100% !important;
+        height: 100% !important;
+        background-position: inherit !important;
+        background-image: inherit !important;
+        background-size: inherit !important;
+        background-attachment: inherit !important;
+        background-repeat: inherit !important;
+        position: fixed !important;
+        top: 0 !important;
+        z-index: -1 !important;
     }
 }
